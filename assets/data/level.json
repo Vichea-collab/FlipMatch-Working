@@ -1,0 +1,7 @@
+[
+  { "id": 1, "rows": 2, "cols": 2, "timeLimitSeconds": 60, "maxMoves": 10 },
+  { "id": 2, "rows": 2, "cols": 3, "timeLimitSeconds": 60, "maxMoves": 14 },
+  { "id": 3, "rows": 3, "cols": 4, "timeLimitSeconds": 80, "maxMoves": 22 },
+  { "id": 4, "rows": 4, "cols": 4, "timeLimitSeconds": 95, "maxMoves": 28 },
+  { "id": 5, "rows": 4, "cols": 5, "timeLimitSeconds": 110, "maxMoves": 34 }
+]
