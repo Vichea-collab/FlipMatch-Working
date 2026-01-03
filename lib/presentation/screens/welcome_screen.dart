@@ -101,7 +101,7 @@ class WelcomeScreen extends StatelessWidget {
             ),
             const Spacer(),
             const Text(
-              'Offline • Multiplayer • 20 Levels',
+              'Offline • Multiplayer • Many Habitats',
               style: TextStyle(color: Colors.white70),
             ),
           ],

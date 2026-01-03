@@ -58,10 +58,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
 
     final deleteUsecase = DeletePlayer(playerRepository);
     await deleteUsecase(player.name);
-    if (!mounted) return;
-    setState(() {
-      _players.removeWhere((p) => p.name.toLowerCase() == player.name.toLowerCase());
-    });
+    await _load();
   }
 
   @override

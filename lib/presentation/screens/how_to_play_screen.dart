@@ -79,7 +79,7 @@ class HowToPlayScreen extends StatelessWidget {
             const SizedBox(height: 16),
             const Center(
               child: Text(
-                'Offline • Multiplayer • 20 Levels',
+                'Offline • Multiplayer • Many Habitats',
                 style: TextStyle(color: Colors.white70),
               ),
             ),

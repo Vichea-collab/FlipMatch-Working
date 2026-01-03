@@ -92,7 +92,7 @@ class _NameEntryScreenState extends State<NameEntryScreen> {
                 ),
                 const SizedBox(height: 24),
                 const Text(
-                  'Collect all the critters across 20 wild habitats',
+                  'Collect all the critters across many wild habitats',
                   style: TextStyle(color: Colors.white70),
                 ),
               ],
