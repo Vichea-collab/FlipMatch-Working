@@ -38,7 +38,7 @@ class WelcomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 32),
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 28),
+              padding: const EdgeInsets.symmetric(vertical: 32),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(28),
@@ -52,18 +52,18 @@ class WelcomeScreen extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  const SizedBox(height: 8),
+                  const SizedBox(height: 12),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 130,
+                    width: 130,
                     decoration: const BoxDecoration(
                       color: Color(0xFFE4F4FF),
                       shape: BoxShape.circle,
                     ),
                     alignment: Alignment.center,
-                    child: const Text('🦉', style: TextStyle(fontSize: 58)),
+                    child: const Text('🦉', style: TextStyle(fontSize: 72)),
                   ),
-                  const SizedBox(height: 18),
+                  const SizedBox(height: 22),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Text(

@@ -64,12 +64,12 @@ class _SplashScreenState extends State<SplashScreen>
                 children: [
                   _AnimalCard(
                     color: Color(0xFFFFD9A0),
-                    child: Text('🦊', style: TextStyle(fontSize: 40)),
+                    child: Text('🦊', style: TextStyle(fontSize: 48)),
                   ),
-                  SizedBox(width: 12),
+                  SizedBox(width: 16),
                   _AnimalCard(
                     color: Color(0xFFAED9FF),
-                    child: Text('🦉', style: TextStyle(fontSize: 40)),
+                    child: Text('🦉', style: TextStyle(fontSize: 48)),
                   ),
                 ],
               ),
@@ -125,8 +125,8 @@ class _AnimalCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 90,
-      width: 90,
+      height: 120,
+      width: 120,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(24),
