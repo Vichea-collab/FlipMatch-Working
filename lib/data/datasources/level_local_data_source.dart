@@ -65,7 +65,6 @@ class LevelLocalDataSourceImpl implements LevelLocalDataSource {
     try {
       _cache = _decodeLevels(raw);
     } catch (_) {
-      // If stored data is corrupted, fallback to bundled asset.
       raw = (await rootBundle.loadString(_assetPath)).trim();
       try {
         _cache = raw.isEmpty ? [] : _decodeLevels(raw);
