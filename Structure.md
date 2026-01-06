@@ -1,0 +1,43 @@
+```
+└── 📁lib
+    └── 📁data
+        └── 📁datasources
+            ├── level_local_data_source.dart
+            ├── player_local_data_source.dart
+        └── 📁models
+            ├── player_model.dart
+        └── 📁repositories
+            ├── level_repository_impl.dart
+            ├── player_repository_impl.dart
+    └── 📁domain
+        └── 📁entities
+            ├── card_entity.dart
+            ├── level_config.dart
+            ├── player.dart
+        └── 📁repositories
+            ├── level_repository.dart
+            ├── player_repository.dart
+        └── 📁services
+            ├── game_service.dart
+            ├── player_service.dart
+    └── 📁ui
+        └── 📁screens
+            ├── game_screen.dart
+            ├── how_to_play_screen.dart
+            ├── leaderboard_screen.dart
+            ├── level_select_screen.dart
+            ├── main_menu_screen.dart
+            ├── name_entry_screen.dart
+            ├── splash_screen.dart
+            ├── welcome_screen.dart
+        └── 📁widgets
+            ├── app_background.dart
+            ├── card_tile.dart
+            ├── menu_button.dart
+    ├── app_dependencies.dart
+    └── main.dart
+└── 📁assets
+    └── 📁data
+        ├── leaderboard.json
+        └── level.json
+```
